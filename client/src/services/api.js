@@ -1,5 +1,4 @@
-const API_URL = "http://localhost:5000/api/blogs";
-
+const API_URL = "https://blog-crud-app-11mq.onrender.com/api/blogs";
 export const getBlogs = async () => {
     const response = await fetch(API_URL);
     return response.json();
